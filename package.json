@@ -1,0 +1,38 @@
+{
+  "name": "hhg-rogue",
+  "version": "1.0.0",
+  "description": "Hitchhiker's Guide to the Galaxy — Rogue-style visual mapper for the 1984 Infocom text adventure",
+  "main": "main.js",
+  "author": "stork123",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win --portable",
+    "dist-installer": "electron-builder --win"
+  },
+  "build": {
+    "appId": "com.stork123.hhgrogue",
+    "productName": "HHG Rogue",
+    "directories": { "output": "dist" },
+    "files": [
+      "main.js",
+      "preload.js",
+      "index.html",
+      "hhg_data.json"
+    ],
+    "extraResources": [
+      "dfrotz.exe",
+      "HITCHHIK.DAT",
+      "hhg_data.json"
+    ],
+    "win": {
+      "target": ["portable"],
+      "artifactName": "HitchhikersGuideRogue-${version}-Portable.exe",
+      "signAndEditExecutable": false
+    }
+  },
+  "devDependencies": {
+    "electron": "^33.0.0",
+    "electron-builder": "^25.0.0"
+  }
+}

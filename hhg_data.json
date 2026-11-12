@@ -1,0 +1,1007 @@
+{
+  "rooms": {
+    "PANTRY": {
+      "gx": 0,
+      "gy": 0,
+      "px": 0,
+      "py": 0,
+      "desc": "Marvin's Pantry",
+      "type": "generic"
+    },
+    "GALLEY": {
+      "gx": 0,
+      "gy": -1,
+      "px": 0,
+      "py": -130,
+      "desc": "Galley",
+      "type": "generic"
+    },
+    "BRIDGE": {
+      "gx": 2,
+      "gy": 0,
+      "px": 260,
+      "py": 0,
+      "desc": "Bridge",
+      "type": "bridge"
+    },
+    "FORE-CORRIDOR": {
+      "gx": 1,
+      "gy": -1,
+      "px": 130,
+      "py": -130,
+      "desc": "Corridor, Fore End",
+      "type": "corridor"
+    },
+    "AFT-CORRIDOR": {
+      "gx": 1,
+      "gy": 0,
+      "px": 130,
+      "py": 0,
+      "desc": "Corridor, Aft End",
+      "type": "corridor"
+    },
+    "ENTRY-BAY": {
+      "gx": 1,
+      "gy": -2,
+      "px": 130,
+      "py": -260,
+      "desc": "Entry Bay Number Two",
+      "type": "entry"
+    },
+    "ENGINE-ROOM": {
+      "gx": 3,
+      "gy": 0,
+      "px": 390,
+      "py": 0,
+      "desc": "Engine Room",
+      "type": "generic"
+    },
+    "HATCHWAY": {
+      "gx": 1,
+      "gy": 2,
+      "px": 130,
+      "py": 260,
+      "desc": "Hatchway",
+      "type": "passage"
+    },
+    "ACCESS-SPACE": {
+      "gx": 4,
+      "gy": 2,
+      "px": 520,
+      "py": 260,
+      "desc": "Access Space",
+      "type": "passage"
+    },
+    "RAMP": {
+      "gx": -1,
+      "gy": 2,
+      "px": -130,
+      "py": 260,
+      "desc": "Ramp",
+      "type": "passage"
+    },
+    "BEDROOM": {
+      "gx": 12,
+      "gy": 0,
+      "px": 1560,
+      "py": 0,
+      "desc": "Bedroom",
+      "type": "house"
+    },
+    "FRONT-PORCH": {
+      "gx": 12,
+      "gy": 2,
+      "px": 1560,
+      "py": 260,
+      "desc": "Front Porch",
+      "type": "outside"
+    },
+    "FRONT-OF-HOUSE": {
+      "gx": 12,
+      "gy": 3,
+      "px": 1560,
+      "py": 390,
+      "desc": "Front of House",
+      "type": "generic"
+    },
+    "BACK-OF-HOUSE": {
+      "gx": 13,
+      "gy": 2,
+      "px": 1690,
+      "py": 260,
+      "desc": "Back of House",
+      "type": "generic"
+    },
+    "COUNTRY-LANE": {
+      "gx": 12,
+      "gy": 4,
+      "px": 1560,
+      "py": 520,
+      "desc": "Country Lane",
+      "type": "outside"
+    },
+    "PUB": {
+      "gx": 14,
+      "gy": 4,
+      "px": 1820,
+      "py": 520,
+      "desc": "Pub",
+      "type": "pub"
+    },
+    "HOLD": {
+      "gx": 24,
+      "gy": 0,
+      "px": 3120,
+      "py": 0,
+      "desc": "Vogon Hold",
+      "type": "ship"
+    },
+    "CAPTAINS-QUARTERS": {
+      "gx": 36,
+      "gy": 0,
+      "px": 4680,
+      "py": 0,
+      "desc": "Captain's Quarters",
+      "type": "generic"
+    },
+    "AIRLOCK": {
+      "gx": 25,
+      "gy": 0,
+      "px": 3250,
+      "py": 0,
+      "desc": "Airlock",
+      "type": "ship"
+    },
+    "LAIR": {
+      "gx": 0,
+      "gy": 12,
+      "px": 0,
+      "py": 1560,
+      "desc": "Lair",
+      "type": "lair"
+    },
+    "OUTER-LAIR": {
+      "gx": 1,
+      "gy": 12,
+      "px": 130,
+      "py": 1560,
+      "desc": "Beast's Outer Lair",
+      "type": "lair"
+    },
+    "INNER-LAIR": {
+      "gx": -1,
+      "gy": 13,
+      "px": -130,
+      "py": 1690,
+      "desc": "Inner Lair",
+      "type": "lair"
+    },
+    "WAR-CHAMBER": {
+      "gx": 12,
+      "gy": 12,
+      "px": 1560,
+      "py": 1560,
+      "desc": "War Chamber",
+      "type": "generic"
+    },
+    "MAZE": {
+      "gx": 24,
+      "gy": 12,
+      "px": 3120,
+      "py": 1560,
+      "desc": "Maze",
+      "type": "maze"
+    },
+    "LIVING-ROOM": {
+      "gx": 36,
+      "gy": 12,
+      "px": 4680,
+      "py": 1560,
+      "desc": "Living Room",
+      "type": "house"
+    },
+    "DINING-ROOM": {
+      "gx": 35,
+      "gy": 12,
+      "px": 4550,
+      "py": 1560,
+      "desc": "Dining Room",
+      "type": "house"
+    },
+    "KITCHEN": {
+      "gx": 35,
+      "gy": 13,
+      "px": 4550,
+      "py": 1690,
+      "desc": "Kitchen",
+      "type": "house"
+    },
+    "SPEEDBOAT": {
+      "gx": 5,
+      "gy": 2,
+      "px": 650,
+      "py": 260,
+      "desc": "Presidential Speedboat",
+      "type": "dais"
+    },
+    "DAIS": {
+      "gx": 3,
+      "gy": 2,
+      "px": 390,
+      "py": 260,
+      "desc": "Dais",
+      "type": "dais"
+    },
+    "INSIDE-WHALE": {
+      "gx": 0,
+      "gy": 24,
+      "px": 0,
+      "py": 3120,
+      "desc": "Inside the Sperm Whale",
+      "type": "whale"
+    },
+    "DARK": {
+      "gx": 12,
+      "gy": 24,
+      "px": 1560,
+      "py": 3120,
+      "desc": "Dark",
+      "type": "generic"
+    }
+  },
+  "edges": [
+    {
+      "from": "PANTRY",
+      "to": "AFT-CORRIDOR",
+      "dir": "EAST",
+      "conditional": false,
+      "condition": null
+    },
+    {
+      "from": "PANTRY",
+      "to": "AFT-CORRIDOR",
+      "dir": "OUT",
+      "conditional": false,
+      "condition": null
+    },
+    {
+      "from": "GALLEY",
+      "to": "FORE-CORRIDOR",
+      "dir": "EAST",
+      "conditional": false,
+      "condition": null
+    },
+    {
+      "from": "GALLEY",
+      "to": "FORE-CORRIDOR",
+      "dir": "OUT",
+      "conditional": false,
+      "condition": null
+    },
+    {
+      "from": "BRIDGE",
+      "to": "PANTRY",
+      "dir": "WEST",
+      "conditional": true,
+      "condition": null
+    },
+    {
+      "from": "BRIDGE",
+      "to": "FORE-CORRIDOR",
+      "dir": "DOWN",
+      "conditional": false,
+      "condition": null
+    },
+    {
+      "from": "FORE-CORRIDOR",
+      "to": "ENTRY-BAY",
+      "dir": "NORTH",
+      "conditional": false,
+      "condition": null
+    },
+    {
+      "from": "FORE-CORRIDOR",
+      "to": "AFT-CORRIDOR",
+      "dir": "SOUTH",
+      "conditional": false,
+      "condition": null
+    },
+    {
+      "from": "FORE-CORRIDOR",
+      "to": "GALLEY",
+      "dir": "WEST",
+      "conditional": false,
+      "condition": null
+    },
+    {
+      "from": "FORE-CORRIDOR",
+      "to": "BRIDGE",
+      "dir": "UP",
+      "conditional": false,
+      "condition": null
+    },
+    {
+      "from": "AFT-CORRIDOR",
+      "to": "FORE-CORRIDOR",
+      "dir": "NORTH",
+      "conditional": false,
+      "condition": null
+    },
+    {
+      "from": "AFT-CORRIDOR",
+      "to": "ENGINE-ROOM",
+      "dir": "SOUTH",
+      "conditional": true,
+      "condition": null
+    },
+    {
+      "from": "AFT-CORRIDOR",
+      "to": "PANTRY",
+      "dir": "WEST",
+      "conditional": false,
+      "condition": null
+    },
+    {
+      "from": "AFT-CORRIDOR",
+      "to": "HATCHWAY",
+      "dir": "DOWN",
+      "conditional": false,
+      "condition": null
+    },
+    {
+      "from": "ENTRY-BAY",
+      "to": "FORE-CORRIDOR",
+      "dir": "SOUTH",
+      "conditional": false,
+      "condition": null
+    },
+    {
+      "from": "ENGINE-ROOM",
+      "to": "AFT-CORRIDOR",
+      "dir": "NORTH",
+      "conditional": false,
+      "condition": null
+    },
+    {
+      "from": "ENGINE-ROOM",
+      "to": "AFT-CORRIDOR",
+      "dir": "OUT",
+      "conditional": false,
+      "condition": null
+    },
+    {
+      "from": "HATCHWAY",
+      "to": "ACCESS-SPACE",
+      "dir": "EAST",
+      "conditional": true,
+      "condition": null
+    },
+    {
+      "from": "HATCHWAY",
+      "to": "AFT-CORRIDOR",
+      "dir": "UP",
+      "conditional": false,
+      "condition": null
+    },
+    {
+      "from": "HATCHWAY",
+      "to": "RAMP",
+      "dir": "DOWN",
+      "conditional": false,
+      "condition": null
+    },
+    {
+      "from": "HATCHWAY",
+      "to": "RAMP",
+      "dir": "OUT",
+      "conditional": false,
+      "condition": null
+    },
+    {
+      "from": "ACCESS-SPACE",
+      "to": "HATCHWAY",
+      "dir": "WEST",
+      "conditional": false,
+      "condition": null
+    },
+    {
+      "from": "ACCESS-SPACE",
+      "to": "HATCHWAY",
+      "dir": "OUT",
+      "conditional": false,
+      "condition": null
+    },
+    {
+      "from": "BEDROOM",
+      "to": "FRONT-PORCH",
+      "dir": "SOUTH",
+      "conditional": true,
+      "condition": null
+    },
+    {
+      "from": "BEDROOM",
+      "to": "FRONT-PORCH",
+      "dir": "DOWN",
+      "conditional": true,
+      "condition": null
+    },
+    {
+      "from": "BEDROOM",
+      "to": "FRONT-PORCH",
+      "dir": "OUT",
+      "conditional": true,
+      "condition": null
+    },
+    {
+      "from": "FRONT-PORCH",
+      "to": "BEDROOM",
+      "dir": "NORTH",
+      "conditional": false,
+      "condition": null
+    },
+    {
+      "from": "FRONT-PORCH",
+      "to": "FRONT-OF-HOUSE",
+      "dir": "SOUTH",
+      "conditional": true,
+      "condition": null
+    },
+    {
+      "from": "FRONT-PORCH",
+      "to": "BEDROOM",
+      "dir": "UP",
+      "conditional": false,
+      "condition": null
+    },
+    {
+      "from": "FRONT-PORCH",
+      "to": "FRONT-OF-HOUSE",
+      "dir": "OUT",
+      "conditional": true,
+      "condition": null
+    },
+    {
+      "from": "FRONT-OF-HOUSE",
+      "to": "FRONT-PORCH",
+      "dir": "NORTH",
+      "conditional": true,
+      "condition": null
+    },
+    {
+      "from": "FRONT-OF-HOUSE",
+      "to": "COUNTRY-LANE",
+      "dir": "SOUTH",
+      "conditional": false,
+      "condition": null
+    },
+    {
+      "from": "FRONT-OF-HOUSE",
+      "to": "BACK-OF-HOUSE",
+      "dir": "NE",
+      "conditional": false,
+      "condition": null
+    },
+    {
+      "from": "FRONT-OF-HOUSE",
+      "to": "BACK-OF-HOUSE",
+      "dir": "NW",
+      "conditional": false,
+      "condition": null
+    },
+    {
+      "from": "BACK-OF-HOUSE",
+      "to": "FRONT-OF-HOUSE",
+      "dir": "SE",
+      "conditional": false,
+      "condition": null
+    },
+    {
+      "from": "BACK-OF-HOUSE",
+      "to": "FRONT-OF-HOUSE",
+      "dir": "SW",
+      "conditional": false,
+      "condition": null
+    },
+    {
+      "from": "COUNTRY-LANE",
+      "to": "FRONT-OF-HOUSE",
+      "dir": "NORTH",
+      "conditional": false,
+      "condition": null
+    },
+    {
+      "from": "COUNTRY-LANE",
+      "to": "PUB",
+      "dir": "WEST",
+      "conditional": false,
+      "condition": null
+    },
+    {
+      "from": "COUNTRY-LANE",
+      "to": "PUB",
+      "dir": "IN",
+      "conditional": false,
+      "condition": null
+    },
+    {
+      "from": "PUB",
+      "to": "COUNTRY-LANE",
+      "dir": "EAST",
+      "conditional": false,
+      "condition": null
+    },
+    {
+      "from": "PUB",
+      "to": "COUNTRY-LANE",
+      "dir": "OUT",
+      "conditional": false,
+      "condition": null
+    },
+    {
+      "from": "HOLD",
+      "to": "AIRLOCK",
+      "dir": "EAST",
+      "conditional": false,
+      "condition": null
+    },
+    {
+      "from": "AIRLOCK",
+      "to": "HOLD",
+      "dir": "WEST",
+      "conditional": false,
+      "condition": null
+    },
+    {
+      "from": "LAIR",
+      "to": "OUTER-LAIR",
+      "dir": "EAST",
+      "conditional": false,
+      "condition": null
+    },
+    {
+      "from": "LAIR",
+      "to": "INNER-LAIR",
+      "dir": "SW",
+      "conditional": true,
+      "condition": null
+    },
+    {
+      "from": "OUTER-LAIR",
+      "to": "LAIR",
+      "dir": "WEST",
+      "conditional": false,
+      "condition": null
+    },
+    {
+      "from": "INNER-LAIR",
+      "to": "LAIR",
+      "dir": "NE",
+      "conditional": false,
+      "condition": null
+    },
+    {
+      "from": "LIVING-ROOM",
+      "to": "DINING-ROOM",
+      "dir": "WEST",
+      "conditional": false,
+      "condition": null
+    },
+    {
+      "from": "LIVING-ROOM",
+      "to": "KITCHEN",
+      "dir": "SW",
+      "conditional": false,
+      "condition": null
+    },
+    {
+      "from": "DINING-ROOM",
+      "to": "KITCHEN",
+      "dir": "SOUTH",
+      "conditional": false,
+      "condition": null
+    },
+    {
+      "from": "DINING-ROOM",
+      "to": "LIVING-ROOM",
+      "dir": "EAST",
+      "conditional": false,
+      "condition": null
+    },
+    {
+      "from": "KITCHEN",
+      "to": "DINING-ROOM",
+      "dir": "NORTH",
+      "conditional": false,
+      "condition": null
+    },
+    {
+      "from": "KITCHEN",
+      "to": "LIVING-ROOM",
+      "dir": "NE",
+      "conditional": false,
+      "condition": null
+    },
+    {
+      "from": "SPEEDBOAT",
+      "to": "DAIS",
+      "dir": "NORTH",
+      "conditional": false,
+      "condition": null
+    },
+    {
+      "from": "SPEEDBOAT",
+      "to": "DAIS",
+      "dir": "OUT",
+      "conditional": false,
+      "condition": null
+    },
+    {
+      "from": "DAIS",
+      "to": "HATCHWAY",
+      "dir": "EAST",
+      "conditional": true,
+      "condition": null
+    },
+    {
+      "from": "DAIS",
+      "to": "HATCHWAY",
+      "dir": "IN",
+      "conditional": true,
+      "condition": null
+    },
+    {
+      "from": "DAIS",
+      "to": "HATCHWAY",
+      "dir": "OUT",
+      "conditional": true,
+      "condition": null
+    }
+  ],
+  "components": {
+    "PANTRY": 0,
+    "AFT-CORRIDOR": 0,
+    "BRIDGE": 0,
+    "FORE-CORRIDOR": 0,
+    "HATCHWAY": 0,
+    "ENGINE-ROOM": 0,
+    "ENTRY-BAY": 0,
+    "GALLEY": 0,
+    "RAMP": 0,
+    "DAIS": 0,
+    "ACCESS-SPACE": 0,
+    "SPEEDBOAT": 0,
+    "BEDROOM": 1,
+    "FRONT-PORCH": 1,
+    "FRONT-OF-HOUSE": 1,
+    "COUNTRY-LANE": 1,
+    "BACK-OF-HOUSE": 1,
+    "PUB": 1,
+    "HOLD": 2,
+    "AIRLOCK": 2,
+    "CAPTAINS-QUARTERS": 3,
+    "LAIR": 4,
+    "OUTER-LAIR": 4,
+    "INNER-LAIR": 4,
+    "WAR-CHAMBER": 5,
+    "MAZE": 6,
+    "LIVING-ROOM": 7,
+    "DINING-ROOM": 7,
+    "KITCHEN": 7,
+    "INSIDE-WHALE": 8,
+    "DARK": 9
+  },
+  "startRoom": "BEDROOM",
+  "roomObjects": {
+    "PANTRY": [
+      {
+        "d": "Marvin",
+        "t": false
+      },
+      {
+        "d": "thermo-fusion chisel",
+        "t": true
+      }
+    ],
+    "GALLEY": [
+      {
+        "d": "Nutrimat",
+        "t": false
+      },
+      {
+        "d": "touch-sensitive pad",
+        "t": false
+      },
+      {
+        "d": "slot",
+        "t": false
+      },
+      {
+        "d": "shipping carton",
+        "t": true
+      }
+    ],
+    "BRIDGE": [
+      {
+        "d": "Eddie (the shipboard computer)",
+        "t": false
+      },
+      {
+        "d": "large receptacle",
+        "t": false
+      },
+      {
+        "d": "Zaphod Beeblebrox",
+        "t": false
+      },
+      {
+        "d": "Trillian",
+        "t": false
+      },
+      {
+        "d": "molecular hyperwave pincer",
+        "t": true
+      }
+    ],
+    "ENTRY-BAY": [
+      {
+        "d": "sales brochure",
+        "t": true
+      }
+    ],
+    "BEDROOM": [
+      {
+        "d": "telephone",
+        "t": true
+      },
+      {
+        "d": "bed",
+        "t": false
+      },
+      {
+        "d": "your curtains",
+        "t": false
+      },
+      {
+        "d": "your gown",
+        "t": true
+      },
+      {
+        "d": "it",
+        "t": false
+      },
+      {
+        "d": "it",
+        "t": false
+      },
+      {
+        "d": "name",
+        "t": false
+      },
+      {
+        "d": "toothbrush",
+        "t": true
+      },
+      {
+        "d": "flathead screwdriver",
+        "t": true
+      }
+    ],
+    "FRONT-PORCH": [
+      {
+        "d": "loose pile of junk mail",
+        "t": true
+      }
+    ],
+    "FRONT-OF-HOUSE": [
+      {
+        "d": "it",
+        "t": false
+      },
+      {
+        "d": "bulldozer driver",
+        "t": false
+      },
+      {
+        "d": "Mr. Prosser",
+        "t": false
+      }
+    ],
+    "PUB": [
+      {
+        "d": "bar",
+        "t": false
+      },
+      {
+        "d": "shelf of items",
+        "t": false
+      },
+      {
+        "d": "music",
+        "t": false
+      },
+      {
+        "d": "jukebox",
+        "t": false
+      },
+      {
+        "d": "barman",
+        "t": false
+      },
+      {
+        "d": "lots of beer",
+        "t": false
+      },
+      {
+        "d": "peanuts",
+        "t": true
+      },
+      {
+        "d": "cheese sandwich",
+        "t": true
+      }
+    ],
+    "HOLD": [
+      {
+        "d": "babel fish dispenser",
+        "t": false
+      },
+      {
+        "d": "dispenser button",
+        "t": false
+      },
+      {
+        "d": "small hole",
+        "t": false
+      },
+      {
+        "d": "metal hook",
+        "t": false
+      },
+      {
+        "d": "drain",
+        "t": false
+      },
+      {
+        "d": "tiny robot panel",
+        "t": false
+      },
+      {
+        "d": "glass case",
+        "t": false
+      },
+      {
+        "d": "keyboard",
+        "t": true
+      },
+      {
+        "d": "switch",
+        "t": false
+      },
+      {
+        "d": "corridor door",
+        "t": false
+      }
+    ],
+    "CAPTAINS-QUARTERS": [
+      {
+        "d": "poetry appreciation chair",
+        "t": false
+      },
+      {
+        "d": "Vogon Captain",
+        "t": false
+      },
+      {
+        "d": "Vogon poetry",
+        "t": false
+      }
+    ],
+    "OUTER-LAIR": [
+      {
+        "d": "sandstone memorial",
+        "t": false
+      },
+      {
+        "d": "sharp stone",
+        "t": true
+      }
+    ],
+    "LAIR": [
+      {
+        "d": "Ravenous Bugblatter Beast of Traal",
+        "t": false
+      }
+    ],
+    "INNER-LAIR": [
+      {
+        "d": "skeleton",
+        "t": true
+      },
+      {
+        "d": "Nutrimat/Computer Interface",
+        "t": true
+      }
+    ],
+    "WAR-CHAMBER": [
+      {
+        "d": "Vl'Hurg leader",
+        "t": false
+      },
+      {
+        "d": "G'Gugvunt leader",
+        "t": false
+      },
+      {
+        "d": "other planets",
+        "t": false
+      },
+      {
+        "d": "ultra-plasmic vacuum awl",
+        "t": true
+      }
+    ],
+    "MAZE": [
+      {
+        "d": "brain",
+        "t": false
+      },
+      {
+        "d": "synapse",
+        "t": false
+      }
+    ],
+    "LIVING-ROOM": [
+      {
+        "d": "door",
+        "t": false
+      },
+      {
+        "d": "hostess",
+        "t": false
+      }
+    ],
+    "SPEEDBOAT": [
+      {
+        "d": "speedboat",
+        "t": false
+      },
+      {
+        "d": "pilot seat",
+        "t": false
+      },
+      {
+        "d": "tool box",
+        "t": true
+      },
+      {
+        "d": "autopilot button",
+        "t": false
+      },
+      {
+        "d": "narrow channel",
+        "t": false
+      },
+      {
+        "d": "rocky spire",
+        "t": false
+      },
+      {
+        "d": "towering cliffs",
+        "t": false
+      }
+    ],
+    "DAIS": [
+      {
+        "d": "banner",
+        "t": false
+      }
+    ],
+    "INSIDE-WHALE": [
+      {
+        "d": "innard of a whale",
+        "t": false
+      }
+    ]
+  },
+  "gridUnit": 130
+}
