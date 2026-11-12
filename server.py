@@ -30,9 +30,15 @@ ALLOWED_CMD_RE = re.compile(r'^[a-zA-Z0-9\s\'.,!?/]+$')
 BLOCKED_PATTERNS = re.compile(r'\b(rm|cat|ls|cd|cp|mv|wget|curl|bash|sh|python|perl|nc|netcat|kill|sudo)\b', re.IGNORECASE)
 
 
+SAVE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'saves')
+
+
 class DfrotzSession:
-    def __init__(self, story_path):
+    def __init__(self, story_path, session_id=''):
         self.story_path = story_path
+        self.session_id = session_id or str(uuid.uuid4())
+        self.save_dir = os.path.join(SAVE_DIR, self.session_id)
+        os.makedirs(self.save_dir, exist_ok=True)
         self.proc = None
         self.buffer = []
         self.lock = threading.Lock()
@@ -96,12 +102,28 @@ class DfrotzSession:
         with self.lock:
             self.resolve_callback = callback
 
+        # Handle save/restore — dfrotz prompts for a filename on the next line.
+        # We send the command and filename together so dfrotz reads them sequentially.
+        parts = command.strip().split(None, 1)
+        verb = parts[0].lower() if parts else ''
+        full_input = command
+
+        if verb in ('save', 'restore', 'load'):
+            if len(parts) > 1:
+                user_fn = os.path.basename(parts[1].strip())
+                if not user_fn:
+                    user_fn = 'save.qzl'
+            else:
+                user_fn = 'save.qzl'
+            save_path = os.path.join(self.save_dir, user_fn)
+            full_input = verb + '\n' + save_path
+
         try:
-            self.proc.stdin.write(command + '\n')
+            self.proc.stdin.write(full_input + '\n')
             self.proc.stdin.flush()
         except (BrokenPipeError, OSError):
             self._start()
-            self.proc.stdin.write(command + '\n')
+            self.proc.stdin.write(full_input + '\n')
             self.proc.stdin.flush()
 
         for _ in range(150):
@@ -201,7 +223,7 @@ def create_session():
             del sessions[oldest]
 
         session_id = str(uuid.uuid4())
-        session = DfrotzSession(STORY_PATH)
+        session = DfrotzSession(STORY_PATH, session_id)
         sessions[session_id] = session
         return session_id
 
